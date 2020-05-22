@@ -1,0 +1,124 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #A69C9B;
+	font-family: Arial,Lucida Sans;
+}
+.wrapper{
+	min-height: 400px;
+	max-height: auto;
+	width: 85%;
+	margin: 0 auto;
+	font-family: Arial,Lucida Sans;
+}
+.header{
+	height: 50px;
+	width: 100%;
+	background-color: #408080;
+	float: left;
+}
+.headerleft{
+	height: auto;
+	width: 60%;
+	float: left;
+	color: white;
+	font-size: 16px;
+	font-family: Arial;
+	padding: 13px 20px;
+}
+.headerright{
+	height: 100%;
+	width: 30%;
+	float: left;
+	color: white;
+	font-size: 16px;
+	font-family: Arial;
+	padding: 13px 20px;
+}
+.headerright a{
+	text-decoration: none;
+	font-size: 14px;
+	color: red;
+}
+.footer{
+	height: 50px;
+	width: 100%;
+	background-color: #408080;
+	float: left;
+	margin-top: 10px;
+}
+.left{
+	min-height: 400px;
+	max-height: auto;
+	width: 20%;
+	background-color: white;
+	margin-top: 10px;
+	float: left;
+}
+
+.btnlink
+{
+	height: 30px;
+	width: 120px;
+	background-color: #408080;
+	border: 0;
+	margin: 0;
+	color: white;
+	cursor: pointer;
+}
+.right{
+	min-height: 400px;
+	max-height: auto;
+	width: 79%;
+	margin-left: 8px;
+	background-color: white;
+	margin-top: 10px;
+	float: left;
+}
+.table{
+	height: auto;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+.table tr td{
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	padding-left: 10px;
+	font-size: 17px;
+}
+.table tr th{
+	height: 30px;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+.form
+{
+	height: 30px;
+	width: 240px;
+	border: 1px solid #ccf;
+	border-radius: 5px;
+	padding-left: 20px;
+}
+.form2
+{
+	height: 30px;
+	width: 120px;
+	border: 1px solid #ccf;
+	border-radius: 5px;
+	padding-left: 20px;
+}
+table{
+	border-spacing: 0;
+}
+@media (max-width: 955px){
+	.left{
+		width: 100%;
+	}
+	.right{
+		width: 100%;
+		margin-left: 0px;
+	}
+}
